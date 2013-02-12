@@ -33,7 +33,6 @@ public class LoginActivity extends BaseActivity {
         setContentView(R.layout.activity_login);
         
 
-
         Parse.initialize(this, "Your App Id", "Your Client ID");
         
         FragmentManager fragmentManager = getSupportFragmentManager();

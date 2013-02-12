@@ -135,7 +135,6 @@ public class LoginFragment extends BaseFragment {
             // form field with an error.
             focusView.requestFocus();
         } else {
-            // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             UserManager.getInstance().authenticate(username.toLowerCase(Locale.getDefault()), password);
         }
